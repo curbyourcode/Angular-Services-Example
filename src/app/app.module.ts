@@ -3,14 +3,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
+// Service
+import { DataService } from './data.service';
+
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule
+  BrowserModule
   ],
-  providers: [],
+  providers: [ DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

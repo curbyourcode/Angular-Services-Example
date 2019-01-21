@@ -12,6 +12,6 @@ export class DataService {
   ];
 
   myData() {
-    return 'Thius is my data, YES!';
+    return 'This is my data, YES!';
   }
 }

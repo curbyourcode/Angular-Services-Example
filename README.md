@@ -1,27 +1,26 @@
-# ServiceExample
+# Simple Service Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.3.
+####  A Very basic exmaple on how to use a service in a component in Angular
 
-## Development server
+## Description
+Angular service is a function in which you use the same code across multiple components. You can share data across components, or you may fetch data from database of some sort.
+This example generates a service file form angular-cli: ng g service <name of service>.
+We create a simple array and a mehod called myData() that returns a string. I show how you can access the properties and methods from another component. We do so with dependency injection and ngOnInit life cycle hook. 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setup/Installation Requirements
 
-## Code scaffolding
+* _Clone repository. Then locate top folder directory in command line_
+* Run `npm install` to install packages.
+* Run `ng serve` to start the server on port 4200.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Support and contact details
+www.rouzm.com
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
++ Angular 7, TypeScript, HTML, Angular-CLI, Angular Materia
 
-## Running unit tests
+### License
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2016 **_Rouz Majlessi_**
+January 21, 2019&nbsp; 

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { DataService } from './data.service';
 
 @Component({
@@ -6,10 +6,17 @@ import { DataService } from './data.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'service-example';
+  someProperty  = '';
 
   constructor (private dataService: DataService) {
 
   }
+
+  ngOnInit() {
+    console.log(this.dataService.cars);
+    this.someProperty = this.dataService.myData();
+  }
+
 }

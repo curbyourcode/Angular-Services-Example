@@ -7,7 +7,6 @@ import { DataService } from './data.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'service-example';
   someProperty  = '';
 
   constructor (private dataService: DataService) {
@@ -16,6 +15,7 @@ export class AppComponent implements OnInit {
 
   ngOnInit() {
     console.log(this.dataService.cars);
+
     this.someProperty = this.dataService.myData();
   }
 

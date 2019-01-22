@@ -19,7 +19,10 @@ www.rouzm.com
 
 ## Technologies Used
 
-+ Angular 7, TypeScript, HTML, Angular-CLI, Angular Materia
++ Angular 7,
++ TypeScript,
++ HTML,
++ Angular-CLI, Angular Material(mat-tool, mat-list)
 
 ### License
 

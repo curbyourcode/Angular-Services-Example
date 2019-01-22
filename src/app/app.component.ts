@@ -9,14 +9,11 @@ import { DataService } from './data.service';
 export class AppComponent implements OnInit {
   someProperty  = '';
 
-  constructor (private dataService: DataService) {
-
-  }
+  constructor (private dataService: DataService) {}
 
   ngOnInit() {
     console.log(this.dataService.cars);
 
     this.someProperty = this.dataService.myData();
   }
-
 }

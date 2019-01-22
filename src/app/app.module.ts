@@ -8,7 +8,13 @@ import { DataService } from './data.service';
 
 // material
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatCheckboxModule, MatToolbarModule, MatListModule} from '@angular/material';
+import {
+MatButtonModule,
+MatCheckboxModule,
+MatToolbarModule,
+MatListModule
+} from '@angular/material';
+
 import { ToolBarComponent } from './tool-bar/tool-bar.component';
 
 @NgModule({

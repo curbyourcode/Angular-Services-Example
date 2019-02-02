@@ -24,7 +24,3 @@ www.rouzm.com
 + HTML,
 + Angular-CLI, Angular Material(mat-tool, mat-list)
 
-### License
-
-Copyright (c) 2016 **_Rouz Majlessi_**
-January 21, 2019&nbsp; 
